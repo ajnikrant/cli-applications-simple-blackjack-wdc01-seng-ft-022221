@@ -37,10 +37,10 @@ end
 def hit?(current_card_total)
   prompt_user
   get_user_input
+
   if "h"
     deal_card
-    final = current_card_total + deal_card
-    return final
+    return current_card_total += deal_card
   elsif "s"
     return current_card_total
   end
