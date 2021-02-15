@@ -62,7 +62,7 @@ end
 #####################################################
 
 def runner(user_input)
-  until user_input >21 do
+  until user_input > 21 do
     welcome
     initial_round
     hit?(user_input)
