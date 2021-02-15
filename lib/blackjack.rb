@@ -28,7 +28,7 @@ end
 def initial_round(deal_card)
   # card_total= card_1 + card_2
 
-  p display_card_total(card_total)
+  puts display_card_total(card_total)
 end
 
 def hit?
