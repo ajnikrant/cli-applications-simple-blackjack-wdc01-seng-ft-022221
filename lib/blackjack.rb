@@ -41,9 +41,9 @@ def hit?(current_card_total)
   if user_input == "h"
     deal_card
     return current_card_total += deal_card
-  else if user_input !="h" && user_input !="s"
-    puts invalid_command
-    puts prompt_user
+  elsif user_input !="h" && user_input !="s"
+    invalid_command
+    prompt_user
 
 end
 
