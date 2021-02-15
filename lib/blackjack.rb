@@ -3,7 +3,7 @@ def welcome
 end
 
 def deal_card
-  puts number.random
+  puts number.Random
 end
 
 def display_card_total
