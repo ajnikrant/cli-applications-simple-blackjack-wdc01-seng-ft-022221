@@ -69,5 +69,5 @@ def runner
   get_user_input
   initial_round
   hit?
-end_game
+  end_game
 end
