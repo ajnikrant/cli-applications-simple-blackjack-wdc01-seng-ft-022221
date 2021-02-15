@@ -61,12 +61,12 @@ end
 # get every test to pass before coding runner below #
 #####################################################
 
-def runner(num)
+def runner
   welcome
-  # card_total = initial_round #determine your current total & tell user what number they currently have
-  # until card_total > 21 #continue game until user loses
-  #   card_total = hit?(card_total)
-  #   display_card_total(card_total)
-  # end
-  # end_game(card_total) #prints out once user has lost
+  card_total = initial_round #determine your current total & tell user what number they currently have
+  until card_total > 21 #continue game until user loses
+    card_total = hit?(card_total)
+    display_card_total(card_total)
+  end
+  end_game(card_total) #prints out once user has lost
 end
