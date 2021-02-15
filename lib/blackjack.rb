@@ -20,7 +20,7 @@ def get_user_input
 end
 
 def end_game(card_total)
-  if number>21
+  if card_total>21
     puts "Sorry, you hit #{card_total}. Thanks for playing!"
   end
 end
