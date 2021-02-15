@@ -63,10 +63,6 @@ end
 
 def runner
   welcome
-  deal_card
-  display_card_total
-  prompt_user
-  get_user_input
   initial_round
   hit?
   end_game
