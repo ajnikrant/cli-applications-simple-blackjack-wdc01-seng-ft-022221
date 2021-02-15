@@ -44,10 +44,9 @@ def hit?(current_card_total)
     return final
   elsif "s"
     return current_card_total
-  else
+  end
     puts invalid_command
     puts prompt_user
-  end
 
 end
 
