@@ -62,9 +62,11 @@ end
 #####################################################
 
 def runner(user_input)
-  welcome
-  initial_round
-  hit?(user_input)
-  display_card_total
+  until user_input >21 do
+    welcome
+    initial_round
+    hit?(user_input)
+    display_card_total
+  end
   end_game
 end
