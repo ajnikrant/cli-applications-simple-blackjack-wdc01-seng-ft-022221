@@ -25,7 +25,7 @@ def end_game(card_total)
   end
 end
 
-def initial_round(deal_card, deal_card)
+def initial_round(deal_card)
   # card_total= card_1 + card_2
 
   p display_card_total(card_total)
